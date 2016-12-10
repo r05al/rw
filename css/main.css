@@ -1,0 +1,141 @@
+* {
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+	height: 100%;
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+@font-face {
+  font-family: 'mrseavessmallcaps';
+  src: url('../fonts/mrseavessmallcaps.ttf')
+}
+
+@font-face {
+  font-family: 'jellyka';
+  src: url('../fonts/jellyka.ttf')
+}
+
+input#password {
+	background: white;
+	opacity: .8;
+	text-align: center;
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+.parallax-container {
+	height: 100vh;
+	min-height: 100%;
+}
+
+.navbar-fixed {
+	position: absolute;
+}
+
+nav ul li {
+  display:inline-block;
+  float: none;
+}
+
+h1 {
+	font-family: 'mrseavessmallcaps', cursive;
+	font-size: 100px;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 8px;
+  font-weight: 300;
+  font-style: normal;
+  max-width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0;
+  color: #bd8c7d;
+  position: relative;
+  z-index: inherit;
+}
+
+h2 {
+	font-family: 'mrseavessmallcaps', cursive;
+	color: #f6d8d1
+}
+
+body {
+	background-color: #d1bfa7;
+
+}
+
+nav {
+	font-family: 'mrseavessmallcaps', cursive;
+	position: absolute;
+	background-color: transparent;
+	z-index: 1000;
+}
+
+.page-footer {
+	background-color: transparent;
+}
+
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 50px;
+	}
+	h2 {
+		font-size: 32px;
+	}
+
+/*	.parallax-container {
+
+	    background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+
+	}
+
+	.our-story {
+		background: url("../images/mobile2.jpg") top;
+		background-attachment:scroll;
+		position: fixed;
+	}
+
+	.epl {
+		background: url("../images/mall1.jpg") no-repeat fixed top center;
+	}
+
+	.he-prop {
+		background: url("../images/mobile2.jpg") no-repeat fixed top center;
+	}
+
+	.she-sy {
+		background: url("../images/mobile1.jpg") no-repeat fixed top center;
+	}*/
+}
+
+/*colors
+#f6d8d1
+#eecfc7
+#ececec
+#f7f7f7
+#ffffff
+Rose Gold: #bd8c7d
+
+Soft Gold: #d1bfa7
+
+Silver: #8e8e90
+
+Onyx: #49494b
+Silver Fox: #d4d4dc
+
+
+Deep Matte Grey: #393f4d
+Dark Slate: #1d1e22
+
+font-family: 'Forum', cursive;
+font-family: 'Simonetta', cursive;
+here*/
