@@ -2,12 +2,19 @@
   -webkit-overflow-scrolling: touch;
 }
 
+html {
+	font-family: 'mrseavessmallcaps';
+}
+
 body {
 	height: 100%;
 	overflow: scroll;
 	-webkit-overflow-scrolling: touch;
 }
 
+.tail {
+	height: 64px;
+}
 @font-face {
   font-family: 'mrseavessmallcaps';
   src: url('../fonts/mrseavessmallcaps.ttf')
@@ -18,7 +25,7 @@ body {
   src: url('../fonts/jellyka.ttf')
 }
 
-input#password {
+#password input{
 	background: white;
 	opacity: .8;
 	text-align: center;
@@ -33,12 +40,17 @@ input#password {
 	min-height: 100%;
 }
 
-.navbar-fixed {
-	position: absolute;
+.sticky {
+    position:fixed;
+    top:0;
 }
 
-nav ul li {
-  display:inline-block;
+nav a, nav ul a {
+	color: black;
+}
+
+ul li {
+  display: block;
   float: none;
 }
 
@@ -61,13 +73,10 @@ h1 {
 }
 
 h2 {
-	font-family: 'mrseavessmallcaps', cursive;
-	color: #f6d8d1
-}
-
-body {
-	background-color: #d1bfa7;
-
+	font-family: 'mrseavessmallcaps';
+	color: rgb(178,154,52);
+	letter-spacing: 4px;
+	font-size: 4rem;
 }
 
 nav {
@@ -75,6 +84,16 @@ nav {
 	position: absolute;
 	background-color: transparent;
 	z-index: 1000;
+}
+
+.avatar {
+	display: flex; 
+	align-items: center;
+}
+
+.avatar > img {
+	height: 2rem;
+	margin-right: 6px;
 }
 
 .page-footer {
