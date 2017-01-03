@@ -9,6 +9,7 @@ $(document).ready(function(){
 	$('.materialboxed').materialbox();
 	$('select').material_select();
 	$('.carousel.carousel-slider').carousel({full_width: true});
+	$('.modal-trigger').leanModal();
 
 	if (authorized) {
 		$('#password').hide();

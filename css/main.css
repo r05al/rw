@@ -3,7 +3,7 @@
 }
 
 html {
-	font-family: 'Oswald';
+	font-family: 'Crimson Text';
 }
 
 body {
@@ -81,7 +81,8 @@ h2 {
 }
 
 h5 {
-	font-family: 'Oswald';
+	font-family: 'Crimson Text';
+	line-height: 1.5;
 }
 
 nav {
@@ -116,6 +117,10 @@ nav {
 
 .card-content {
 	text-align: center;
+}
+
+.modal-content > img {
+	width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
