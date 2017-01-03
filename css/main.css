@@ -3,7 +3,7 @@
 }
 
 html {
-	font-family: 'mrseavessmallcaps';
+	font-family: 'Oswald';
 }
 
 body {
@@ -80,6 +80,10 @@ h2 {
 	text-align: center;
 }
 
+h5 {
+	font-family: 'Oswald';
+}
+
 nav {
 	font-family: 'mrseavessmallcaps', cursive;
 	position: absolute;
@@ -95,6 +99,11 @@ nav {
 .avatar > img {
 	height: 2rem;
 	margin-right: 6px;
+}
+
+.collapsible-body > img {
+	height: 200px;
+	padding: 2rem 2rem 0;
 }
 
 .page-footer {
